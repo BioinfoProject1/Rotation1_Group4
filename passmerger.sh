@@ -21,5 +21,8 @@ conda activate nanoplot
 # Merge pass files
 cat /share/BioinfMSc/Matt_resources/long_reads/fastq_pass/barcode04/*.fastq.gz > /share/BioinfMSc/rotation1/Group4/long_read-nanoplot/pass_merged_barcode04.fastq.gz
 
-# Nanoplot                                                                                                              
-NanoPlot --fastq pass_merged_barcode04.fastq.gz > /share/BioinfMSc/rotation1/Group4/long_read-nanoplot/passnanoplot_results/
+# Nanoplot
+NanoPlot --fastq pass_merged_barcode04.fastq.gz > /share/BioinfMSc/rotation1/Group4/long_read-nanoplot/passnanoplot_results/ 
+
+# Deactivate conda environment                                                                                          
+conda deactivate   
