@@ -77,6 +77,10 @@ Using the Prokka package
 | [prokka_pass_longreads.sh](/barcode8/prokka_pass_longreads.sh)     |pass longreads        |
 | [prokka.sh](/barcode8/prokka.sh) | short reads |
 
-### 6. 
+### 6. IGV
+Using this website to download IGV
+
+https://igv.org/doc/desktop/#DownloadPage/
+
 
 ## References
