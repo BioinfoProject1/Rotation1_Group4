@@ -22,12 +22,14 @@ conda install -c bioconda minimap2=2.28
 
 ## Code
 ### 1. Merging files
+
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
 | [longreadmerge.sh](/merger/longreadmerge.sh) | Merge long-read FASTQ files    |
 | [merger.sh](/merger/merger.sh)   | General long-read merger        |
 | [short_read_R1_merger.sh](/merger/short_read_R1_merger.sh) | Merge R1 short-read files       |
 | [short_read_R2_merger.sh](/merger/short_read_R2_merger.sh) | Merge R2 short-read files       |
+
 ### 2. QC
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
@@ -35,8 +37,9 @@ conda install -c bioconda minimap2=2.28
 | [R2_qc.sh](/merger/R2_qc.sh)     | R2 short-read QC                |
 | [passmerger.sh](/merger/passmerger.sh) | Merge QC-passed long-read files |
 | [failmerger.sh](/merger/failmerger.sh) | Merge QC-failed long-read files |
+
 ### 3. Assemblies
-using the Unicylcer package
+Using the Unicylcer package
 | Script Name                  | Description                              |
 |------------------------------|------------------------------------------|
 | [highdepth_hybrid_assembly.sh](/barcode8/assembly/highdepth_hybrid_assembly.sh) | High-depth hybrid assembly script        |
@@ -46,20 +49,22 @@ using the Unicylcer package
 | [shortread_assembly.sh](/barcode8/assembly/shortread_assembly.sh)        | Short-read assembly script               |
 
 ### 4. Quast
+Using the Quast package
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
 | [quast.sh](/barcode8/quast.sh)     | combined quast                |
-| [compare_assemblies_mergep4ref.sh](/barcode8/compare_assemblies_mergep4ref.sh )     | compare assembly methods   ]|
+| [compare_assemblies_mergep4ref.sh](/barcode8/compare_assemblies_mergep4ref.sh )     | compare assembly methods   |
 | [longread_quast.sh](/barcode8/longread_quast.sh)     |longread_eval                 |
 | [shortread_quast.sh](/barcode8/shortread_quast.sh) | shortread_eval |
 | [hybrid_quast.sh](/barcode8/hybrid_quast.sh) | hybrid_eval |
 
 ### 5. Genome annotation
+Using the Prokka package
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
 | [compliant_hybrid_prokka.sh](/barcode8/compliant_hybrid_prokka.sh)     |  highdepth hybrid               |
-| [compare_assemblies_mergep4ref.sh](/barcode8/compare_assemblies_mergep4ref.sh )     | compare assembly methods   ]|
-| [longread_quast.sh](/barcode8/longread_quast.sh)     |longread_eval                 |
+| [lowdepth_hybrid_prokka.sh](/barcode8/lowdepth_hybrid_prokka.sh)     | lowdepth hybrid   |
+| [prokka_pass_longreads.sh](/barcode8/prokka_pass_longreads.sh)     |pass longreads        |
 | [shortread_quast.sh](/barcode8/shortread_quast.sh) | shortread_eval |
 | [hybrid_quast.sh](/barcode8/hybrid_quast.sh) | hybrid_eval |
 
