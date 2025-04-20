@@ -39,9 +39,9 @@ conda install -c bioconda minimap2=2.28
 using the Unicylcer package
 | Script Name                  | Description                              |
 |------------------------------|------------------------------------------|
-| highdepth_hybrid_assembly.sh(/barcode8/assembly/highdepth_hybrid_assembly.sh) | High-depth hybrid assembly script        |
-| lowdepth_hybrid_assembly.sh  | Low-depth hybrid assembly script         |
-| pass_longread_assembly.sh    | Assemble passing long-reads post-QC      |
-| pf_longread_assembly.sh      | Assemble partially filtered long-reads   |
-| shortread_assembly.sh        | Short-read assembly script               |
+| [highdepth_hybrid_assembly.sh](/barcode8/assembly/highdepth_hybrid_assembly.sh) | High-depth hybrid assembly script        |
+| [lowdepth_hybrid_assembly.sh](/barcode8/assembly/lowdepth_hybrid_assembly.sh)  | Low-depth hybrid assembly script         |
+| [pass_longread_assembly.sh](/barcode8/assembly/pass_longread_assembly.sh)    | Assemble passing long-reads post-QC      |
+| [pf_longread_assembly.sh](/barcode8/assembly/pf_longread_assembly.sh)      | Assemble partially filtered long-reads   |
+| [shortread_assembly.sh](/barcode8/assembly/shortread_assembly.sh)        | Short-read assembly script               |
 ## References
