@@ -31,6 +31,9 @@ conda install -c bioconda minimap2=2.28
 | [short_read_R2_merger.sh](/merger/short_read_R2_merger.sh) | Merge R2 short-read files       |
 
 ### 2. QC
+
+Using the Nanoplot package
+
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
 | [R1_qc.sh](/merger/R1_qc.sh)     | R1 short-read QC                |
@@ -39,7 +42,9 @@ conda install -c bioconda minimap2=2.28
 | [failmerger.sh](/merger/failmerger.sh) | Merge QC-failed long-read files |
 
 ### 3. Assemblies
+
 Using the Unicylcer package
+
 | Script Name                  | Description                              |
 |------------------------------|------------------------------------------|
 | [highdepth_hybrid_assembly.sh](/barcode8/assembly/highdepth_hybrid_assembly.sh) | High-depth hybrid assembly script        |
@@ -49,7 +54,9 @@ Using the Unicylcer package
 | [shortread_assembly.sh](/barcode8/assembly/shortread_assembly.sh)        | Short-read assembly script               |
 
 ### 4. Quast
+
 Using the Quast package
+
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
 | [quast.sh](/barcode8/quast.sh)     | combined quast                |
@@ -59,7 +66,9 @@ Using the Quast package
 | [hybrid_quast.sh](/barcode8/hybrid_quast.sh) | hybrid_eval |
 
 ### 5. Genome annotation
+
 Using the Prokka package
+
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
 | [compliant_hybrid_prokka.sh](/barcode8/compliant_hybrid_prokka.sh)     |  compliant hybrid               |
