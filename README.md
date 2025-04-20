@@ -25,16 +25,16 @@ conda install -c bioconda minimap2=2.28
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
 | [longreadmerge.sh](/merger/longreadmerge.sh) | Merge long-read FASTQ files    |
-| [merger.sh](/merged_files/merger/merger.sh)   | General long-read merger        |
-| [short_read_R1_merger.sh](/merged_files/merger/short_read_R1_merger.sh) | Merge R1 short-read files       |
-| [short_read_R2_merger.sh](/merged_files/merger/short_read_R2_merger.sh) | Merge R2 short-read files       |
+| [merger.sh](/merger/merger.sh)   | General long-read merger        |
+| [short_read_R1_merger.sh](/merger/short_read_R1_merger.sh) | Merge R1 short-read files       |
+| [short_read_R2_merger.sh](/merger/short_read_R2_merger.sh) | Merge R2 short-read files       |
 ### 2. QC testing
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
-| [R1_qc.sh](/merged_files/merger/R1_qc.sh)     | R1 short-read QC                |
-| [R2_qc.sh](/merged_files/merger/R2_qc.sh)     | R2 short-read QC                |
-| [passmerger.sh](/merged_files/merger/passmerger.sh) | Merge QC-passed long-read files |
-| [failmerger.sh](/merged_files/merger/failmerger.sh) | Merge QC-failed long-read files |
+| [R1_qc.sh](/merger/R1_qc.sh)     | R1 short-read QC                |
+| [R2_qc.sh](/merger/R2_qc.sh)     | R2 short-read QC                |
+| [passmerger.sh](/merger/passmerger.sh) | Merge QC-passed long-read files |
+| [failmerger.sh](/merger/failmerger.sh) | Merge QC-failed long-read files |
 ### 3. Assemblies
 using the Unicylcer package
 
