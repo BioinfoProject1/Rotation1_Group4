@@ -21,3 +21,11 @@ conda activate unicycler2
 # Define input and NEW output paths
 R1="/share/BioinfMSc/rotation1/Group4/barcode8/short_read/R1merged_08.fastq"
 R2="/share/BioinfMSc/rotation1/Group4/barcode8/short_read/R2merged_08.fastq"
+pass_longreads="/share/BioinfMSc/rotation1/Group4/barcode8/long_read/pass_merged_barcode08.fastq"
+output_dir="/share/BioinfMSc/rotation1/Group4/barcode8/genome_assembly/highdepth_hybrid"
+
+# Hybrid assembly
+unicycler -1 $R1 -2 $R2 -l $pass_longreads -o $output_dir
+
+# Deactivate conda environment
+conda deactivate
