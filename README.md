@@ -14,7 +14,6 @@ Install required tools using commands:
 conda install -c bioconda unicycler=0.5.0
 conda install -c bioconda nanoplot=1.42.0
 conda install -c bioconda quast=5.2.0
-conda install -c bioconda busco=5.7.1
 conda install -c bioconda prokka=1.14.6
 conda install -c bioconda minimap2=2.28
 ```
