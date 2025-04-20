@@ -53,7 +53,14 @@ using the Unicylcer package
 | [longread_quast.sh](/barcode8/longread_quast.sh)     |longread_eval                 |
 | [shortread_quast.sh](/barcode8/shortread_quast.sh) | shortread_eval |
 | [hybrid_quast.sh](/barcode8/hybrid_quast.sh) | hybrid_eval |
-### 5. Genome annotation
 
+### 5. Genome annotation
+| Script Name                                      | Description                     |
+|--------------------------------------------------|----------------------------------|
+| [compliant_hybrid_prokka.sh](/barcode8/compliant_hybrid_prokka.sh)     |  highdepth hybrid               |
+| [compare_assemblies_mergep4ref.sh](/barcode8/compare_assemblies_mergep4ref.sh )     | compare assembly methods   ]|
+| [longread_quast.sh](/barcode8/longread_quast.sh)     |longread_eval                 |
+| [shortread_quast.sh](/barcode8/shortread_quast.sh) | shortread_eval |
+| [hybrid_quast.sh](/barcode8/hybrid_quast.sh) | hybrid_eval |
 
 ## References
