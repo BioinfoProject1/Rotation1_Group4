@@ -28,7 +28,7 @@ conda install -c bioconda minimap2=2.28
 | [merger.sh](/merger/merger.sh)   | General long-read merger        |
 | [short_read_R1_merger.sh](/merger/short_read_R1_merger.sh) | Merge R1 short-read files       |
 | [short_read_R2_merger.sh](/merger/short_read_R2_merger.sh) | Merge R2 short-read files       |
-### 2. QC testing
+### 2. QC
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
 | [R1_qc.sh](/merger/R1_qc.sh)     | R1 short-read QC                |
@@ -45,7 +45,7 @@ using the Unicylcer package
 | [pf_longread_assembly.sh](/barcode8/assembly/pf_longread_assembly.sh)      | Assemble partially filtered long-reads   |
 | [shortread_assembly.sh](/barcode8/assembly/shortread_assembly.sh)        | Short-read assembly script               |
 
-### 4. 
+### 4. Quast
 
 
 
