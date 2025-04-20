@@ -25,9 +25,9 @@ conda install -c bioconda minimap2=2.28
 | Script Name                                      | Description                     |
 |--------------------------------------------------|---------------------------------|
 | [longreadmerge.sh](/merger/longreadmerge.sh)     | Merge long-read data           |
-| [merger.sh](https://github.com/ZiqiXiong919/repo-name/blob/main/merged_files/merger/merger.sh)                   | General-purpose merging script |
-| [short_read_R1_merger.sh](https://github.com/ZiqiXiong919/repo-name/blob/main/merged_files/merger/short_read_R1_merger.sh) | Merge short-read R1 data     |
-| [short_read_R2_merger.sh](https://github.com/ZiqiXiong919/repo-name/blob/main/merged_files/merger/short_read_R2_merger.sh) | Merge short-read R2 data     |
+| [merger.sh](merged_files/merger/merger.sh)                   | General-purpose merging script |
+| [short_read_R1_merger.sh](/merged_files/merger/short_read_R1_merger.sh) | Merge short-read R1 data     |
+| [short_read_R2_merger.sh](/merged_files/merger/short_read_R2_merger.sh) | Merge short-read R2 data     |
 ### 2. QC
 | passmerger.sh        | Merge reads passing QC         |
 ## References
