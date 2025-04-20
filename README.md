@@ -49,9 +49,10 @@ using the Unicylcer package
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
 | [quast.sh](/barcode8/quast.sh)     | combined quast                |
-| [longread_quast.sh](/barcode8/longread_quast.sh)     | R2 short-read QC                |
-| [shortread_quast.sh](/barcode8/shortread_quast.sh) | Merge QC-passed long-read files |
-| [hybrid_quast.sh](/barcode8/hybrid_quast.sh) | Merge QC-failed long-read files |
+| [compare_assemblies_mergep4ref.sh](/barcode8/compare_assemblies_mergep4ref.sh )     | compare assembly methods   ]|
+| [longread_quast.sh](/barcode8/longread_quast.sh)     |longread_eval                 |
+| [shortread_quast.sh](/barcode8/shortread_quast.sh) | shortread_eval |
+| [hybrid_quast.sh](/barcode8/hybrid_quast.sh) | hybrid_eval |
 
 
 
