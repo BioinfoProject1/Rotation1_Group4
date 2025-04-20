@@ -46,7 +46,12 @@ using the Unicylcer package
 | [shortread_assembly.sh](/barcode8/assembly/shortread_assembly.sh)        | Short-read assembly script               |
 
 ### 4. Quast
-
+| Script Name                                      | Description                     |
+|--------------------------------------------------|----------------------------------|
+| [quast.sh](/barcode8/quast.sh)     | combined quast                |
+| [longread_quast.sh](/barcode8/longread_quast.sh)     | R2 short-read QC                |
+| [shortread_quast.sh](/barcode8/shortread_quast.sh) | Merge QC-passed long-read files |
+| [hybrid_quast.sh](/barcode8/hybrid_quast.sh) | Merge QC-failed long-read files |
 
 
 
