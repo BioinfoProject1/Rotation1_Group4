@@ -62,10 +62,12 @@ Using the Quast package
 Using the Prokka package
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
-| [compliant_hybrid_prokka.sh](/barcode8/compliant_hybrid_prokka.sh)     |  highdepth hybrid               |
+| [compliant_hybrid_prokka.sh](/barcode8/compliant_hybrid_prokka.sh)     |  compliant hybrid               |
+| [higndepth_hybrid_prokka.sh](/barcode8/higndepth_hybrid_prokka.sh)     |  compliant hybrid               |
 | [lowdepth_hybrid_prokka.sh](/barcode8/lowdepth_hybrid_prokka.sh)     | lowdepth hybrid   |
 | [prokka_pass_longreads.sh](/barcode8/prokka_pass_longreads.sh)     |pass longreads        |
-| [shortread_quast.sh](/barcode8/shortread_quast.sh) | shortread_eval |
-| [hybrid_quast.sh](/barcode8/hybrid_quast.sh) | hybrid_eval |
+| [prokka.sh](/barcode8/prokka.sh) | short reads |
+
+### 6. 
 
 ## References
