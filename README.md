@@ -63,7 +63,7 @@ Using the Prokka package
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
 | [compliant_hybrid_prokka.sh](/barcode8/compliant_hybrid_prokka.sh)     |  compliant hybrid               |
-| [higndepth_hybrid_prokka.sh](/barcode8/higndepth_hybrid_prokka.sh)     |  highdepth hybrid               |
+| [highdepth_hybrid_prokka.sh](/barcode8/higndepth_hybrid_prokka.sh)     |  highdepth hybrid               |
 | [lowdepth_hybrid_prokka.sh](/barcode8/lowdepth_hybrid_prokka.sh)     | lowdepth hybrid   |
 | [prokka_pass_longreads.sh](/barcode8/prokka_pass_longreads.sh)     |pass longreads        |
 | [prokka.sh](/barcode8/prokka.sh) | short reads |
