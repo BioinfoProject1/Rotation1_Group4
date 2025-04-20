@@ -16,6 +16,9 @@ conda install -c bioconda nanoplot=1.42.0
 conda install -c bioconda quast=5.2.0
 conda install -c bioconda prokka=1.14.6
 conda install -c bioconda minimap2=2.28
+conda install bioconda：：amr
+conda install bioconda：：bwa
+conda install bioconda：：samtools
 ```
 ## Data
 
@@ -77,9 +80,7 @@ Using the Prokka package
 | [prokka.sh](/barcode8/prokka.sh) | short reads |
 
 ### 6. IGV
-Using this website to download IGV
-
-https://igv.org/doc/desktop/#DownloadPage/
+Using this website to download IGV (https://igv.org/doc/desktop/#DownloadPage/)
 
 
 ## References
