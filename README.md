@@ -42,7 +42,7 @@ Using the Nanoplot package
 | [passmerger.sh](/merger/passmerger.sh) | Merge QC-passed long-read files |
 | [failmerger.sh](/merger/failmerger.sh) | Merge QC-failed long-read files |
 
-### 3. Assemblies
+### 3. Genome assembly
 
 Using the Unicylcer package
 
