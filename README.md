@@ -93,7 +93,9 @@ Using genovi package
 ### 6. IGV
 
 Using this website to download IGV (https://igv.org/doc/desktop/#DownloadPage/)
+
 Using the bwa package
+
 Using the samtools package
 
 | Script Name                                      | Description                     |
