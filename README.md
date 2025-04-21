@@ -94,8 +94,14 @@ Using the samtools package
 
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
-| [bam_bai_maker.sh](/barcode8/bam_bai_maker.sh)     |  creating sorted .BAM.bai file              |
-| [p4inc_bam_bai_maker.sh](/barcode8/p4inc_bam_bai_maker.sh)     | Creating .BAM.bai file              |
+| [bam_bai_maker.sh](/barcode8/bam_bai_maker.sh)     |  creating sorted shortread .BAM.bai file              |
+| [p4inc_bam_bai_maker.sh](/barcode8/p4inc_bam_bai_maker.sh)     | Creating shortread .BAM.bai file              |
 | [filter_end.sh](/barcode8/filter_end.sh)     | Filter for end region            |
+
+| Script Name                                      | Description                     |
+|--------------------------------------------------|----------------------------------|
+| [bam_bai_converter.sh](/barcode8/bam_bai_converter.sh)     |  creating sorted longread .BAM.bai file              |
+| [p4inc_bam_bai_converter.sh](/barcode8/p4inc_bam_bai_converter.sh)     | Creating longread .BAM.bai file              |
+
 
 ## References
