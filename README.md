@@ -16,8 +16,6 @@ conda install -c bioconda nanoplot=1.42.0
 conda install -c bioconda quast=5.2.0
 conda install -c bioconda prokka=1.14.6
 conda install -c bioconda minimap2=2.28
-conda install bioconda：：mummer
-conda install bioconda：：amr
 conda install bioconda：：bwa
 conda install bioconda：：samtools
 ```
