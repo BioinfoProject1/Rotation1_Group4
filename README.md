@@ -94,10 +94,8 @@ Using the samtools package
 
 | Script Name                                      | Description                     |
 |--------------------------------------------------|----------------------------------|
-| [bam_bai_maker.sh](/barcode8/bam_bai_maker.sh)     |  short read               |
-| [p4inc_bam_bai_maker.sh](/barcode8/p4inc_bam_bai_maker.sh)     |  short read               |
-| [lowdepth_hybrid_prokka.sh](/barcode8/lowdepth_hybrid_prokka.sh)     | lowdepth hybrid   |
-| [prokka_pass_longreads.sh](/barcode8/prokka_pass_longreads.sh)     |pass longreads        |
-| [prokka.sh](/barcode8/prokka.sh) | short reads |
+| [bam_bai_maker.sh](/barcode8/bam_bai_maker.sh)     |  creating sorted .BAM.bai file              |
+| [p4inc_bam_bai_maker.sh](/barcode8/p4inc_bam_bai_maker.sh)     | Creating .BAM.bai file              |
+| [filter_end.sh](/barcode8/filter_end.sh)     | Filter for end region            |
 
 ## References
