@@ -16,6 +16,7 @@ conda install -c bioconda nanoplot=1.42.0
 conda install -c bioconda quast=5.2.0
 conda install -c bioconda prokka=1.14.6
 conda install -c bioconda minimap2=2.28
+conda install bioconda：：mummer
 conda install bioconda：：amr
 conda install bioconda：：bwa
 conda install bioconda：：samtools
@@ -85,6 +86,11 @@ Annotating references
 |--------------------------------------------------|----------------------------------|
 | [merge_ref.sh](/barcode8/merge_ref.sh)     |  merge the references               |
 | [merge_ann_ref.sh](/barcode8/merge_ann_ref.sh)     |     annotationg the merge references           |
+
+Using genovi package
+
+[complete_highdepth_hybrid_genovi.sh](/barcode8/complete_highdepth_hybrid_genovi.sh)
+
 
 ### 6. IGV
 
