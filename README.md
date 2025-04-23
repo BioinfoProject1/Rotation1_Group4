@@ -1,4 +1,4 @@
-# Rotation1 Group4
+# LIFE4136 Rotation1 Group4
 ## Introduction
 This project is derived from Rotation1 of LIFE4136 from the University of Nottingham. 
 The project aims to use bioinformatics methods to identify genomic modifications in engineered microbial strains. Researchers generated Illumina short reads and Nanopore long reads for mutant samples and parental controls, but lacked understanding of specific genetic changes. Key issues include determining the number and structure of chromosomes (linear/circular), comparing mutations to controls, evaluating the suitability of long and short reads, and identifying disrupted biological functions.
@@ -130,16 +130,26 @@ Using the samtools package
 | [bam_bai_converter.sh](/barcode8/bam_bai_converter.sh)     |  creating sorted longread .BAM.bai file              |
 | [p4inc_bam_bai_converter.sh](/barcode8/p4inc_bam_bai_converter.sh)     | Creating longread .BAM.bai file              |
 
+## Notes
+The above scripts are all for barcode8. If you want to run the barcode4 script, please visit the folder to view scripts. All barcode4 scripts are already in the folder "barcode4". The naming rules of barcode4 scripts are similar to those of barcode8. Thank you for your viewing~  ：）
 
 ## References
-[1] Unicycler 
-https://github.com/rrwick/Unicycler 
-<br>[2] Quast 
-https://quast.sourceforge.net/docs/manual.html
-<br>[3] 
-Prokka https://github.com/tseemann/prokka
-<br>[4] 
-https://github.com/robotoD/GenoVi?tab=readme-ov-file
+[1] **Unicycler** https://github.com/rrwick/Unicycler 
+<br>[2] **Quast** https://quast.sourceforge.net/docs/manual.html
+<br>[3] **Prokka** https://github.com/tseemann/prokka
+<br>[4] **Genovi** https://github.com/robotoD/GenoVi?tab=readme-ov-file
+<br>[5] **Nanoplot**  https://github.com/wdecoster/NanoPlot
+<br>[6] **Minimap** https://github.com/lh3/minimap2
+<br>[7] **BWA** https://github.com/lh3/bwa
+<br>[8] **Samtools** https://github.com/samtools/samtools
+
+## Author
+All scripts are provided by
+<br>Bela Sandip Khiratkar https://github.com/BelaProfile
+<br>Leah Ellis https://github.com/Leah31115
+<br>Ziqi Xiong https://github.com/ZiqiXiong919
+Thanks the the most beautiful women Bela and the most lovely women Leah~
+
 
 
 
