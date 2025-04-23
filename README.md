@@ -1,6 +1,8 @@
 # Rotation1 Group4
 ## Introduction
-This project is derived from Rotation1 of LIFE4136 from the University of Nottingham. The project aims to use bioinformatics methods to identify genomic modifications in engineered microbial strains. Researchers generated Illumina short reads and Nanopore long reads for mutant samples and parental controls, but lacked understanding of specific genetic changes. Key issues include determining the number and structure of chromosomes (linear/circular), comparing mutations to controls, evaluating the suitability of long and short reads, and identifying disrupted biological functions. In this project, our research targets barcode4 and barcode8.
+This project is derived from Rotation1 of LIFE4136 from the University of Nottingham. 
+The project aims to use bioinformatics methods to identify genomic modifications in engineered microbial strains. Researchers generated Illumina short reads and Nanopore long reads for mutant samples and parental controls, but lacked understanding of specific genetic changes. Key issues include determining the number and structure of chromosomes (linear/circular), comparing mutations to controls, evaluating the suitability of long and short reads, and identifying disrupted biological functions.
+In this project, our research targets barcode4 and barcode8.
 
 ## Installation
 A conda environment (named 'myenv' was already created during the environment setup). If not created yet, we can create a new conda environment using the following command:
@@ -26,13 +28,13 @@ Data Stages Table
 
 | Stage                        | Input Data                                                                 | Output Data                                                                 |
 |------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| **Short Read QC**            | - `*.fastq`                             | - `*fastqc.html`<br><br>- `fastqc.zip`<br> |
-| **Long Read QC**             | - `*.fastq`                             | - `*fastqc.html`<br><br>- `fastqc.zip`<br> |
+| **Short Read QC**            | - `*.fastq`                             | - `*fastqc.html`<br>- `fastqc.zip`<br> |
+| **Long Read QC**             | - `*.fastq`                             | - `*fastqc.html`<br>- `fastqc.zip`<br> |
 | **High-Depth Hybrid Assembly** | - `*fasta.gz`       | - `*.fa` |
 | **Low-Depth Hybrid Assembly**  | - `*fasta.gz`       | - `*.fa` |
 | **Pass Read Assembly**        | - `*fasta.gz`       | - `*.fa` |
 | **Annotation**               | - `*.fa`                   | - `*.fsa`<br>- `*.gff`<br>- `*.ffn `<br>- `*.tsv`<br>- `*.txt`<br>- `*.fna` <br>- `*.faa`<br>- `*.tbl`<br>- `*.sqn` <br>- `*.gbk`|
-| **Quast Evaluation**         | - `*.fasta`<br>        | - `*.html`<br>- `*.pdf`<br>- `*.tex`<br>- `*.tsv`<br>- `*.txt`` |
+| **Quast Evaluation**         | - `*.fasta`<br>        | - `*.html`<br>- `*.pdf`<br>- `*.tex`<br>- `*.tsv`<br>- `*.txt` |
 | **Prokka Annotation**         | - `*.gbk`<br> - `*.gff`       | - `*.svg`<br>- `*.png`<br>- `*.csv` |
 | **BWA Alignment**            | - `*fasta.gz`   | - `*.bam`<br>- `*.sam`<br>- `*.sam.gz `<br>- `*.amb`<br>- `*.ann`<br>- `*.sa` <br>- `*.pac`<br>- `*.bwt` |
 | **Minimap**         | - `*fasta.gz`      | - `*.sam`<br>- `*.bam`<br>- `*.fasta` |
@@ -130,10 +132,14 @@ Using the samtools package
 
 
 ## References
-[1] Unicycler https://github.com/rrwick/Unicycler 
-[2] Quast https://quast.sourceforge.net/docs/manual.html
-[3] Prokka https://github.com/tseemann/prokka
-[4] https://github.com/robotoD/GenoVi?tab=readme-ov-file
+[1] Unicycler 
+https://github.com/rrwick/Unicycler 
+<br>[2] Quast 
+https://quast.sourceforge.net/docs/manual.html
+<br>[3] 
+Prokka https://github.com/tseemann/prokka
+<br>[4] 
+https://github.com/robotoD/GenoVi?tab=readme-ov-file
 
 
 
