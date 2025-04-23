@@ -1,6 +1,7 @@
 # Rotation1 Group4
 ## Introduction
-This project is about LIFE4136 being carried out in Group4 of Rotation1. This research project is about the strain of a microorganism. We need to study which places or parts of the genome have been modified and where what changes have occurred. Our data includes short-read (Illumina data) and long-read data for some samples, but the majority of the samples only have long-read data. We want a collection of these genomes to determine what has happened to them.
+This project is derived from Rotation1 of LIFE4136 from the University of Nottingham. The project aims to use bioinformatics methods to identify genomic modifications in engineered microbial strains. Researchers generated Illumina short reads and Nanopore long reads for mutant samples and parental controls, but lacked understanding of specific genetic changes. Key issues include determining the number and structure of chromosomes (linear/circular), comparing mutations to controls, evaluating the suitability of long and short reads, and identifying disrupted biological functions. In this project, our research targets barcode4 and barcode8.
+
 ## Installation
 A conda environment (named 'myenv' was already created during the environment setup). If not created yet, we can create a new conda environment using the following command:
 
@@ -130,3 +131,10 @@ Using the samtools package
 
 
 ## References
+[1] Unicycler https://github.com/rrwick/Unicycler 
+[2] Quast https://quast.sourceforge.net/docs/manual.html
+[3] Prokka https://github.com/tseemann/prokka
+[4] https://github.com/robotoD/GenoVi?tab=readme-ov-file
+
+
+
